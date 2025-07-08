@@ -53,11 +53,26 @@
       background-color: #eee;
       margin-top: 40px;
     }
-    img {
-      max-width: 100%;
-      border-radius: 6px;
-      margin: 20px 0;
-    }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 6px;
+  }
+
+  img.small {
+    max-width: 300px;
+  }
+
+  img.medium {
+    max-width: 500px;
+  }
+
+  img.large {
+    max-width: 700px;
+  }
     @keyframes fadeInDown {
       from { opacity: 0; transform: translateY(-20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -80,8 +95,8 @@
   <header>
     <h1>Dr. Philip Heffeweisen, PhD</h1>
     <p>A Cautious Look at the Oxygenation of Hydrogen</p>
-    <img src="images/drPhil.png" alt="Dr. Heffeweisen in the Lab" class="animated">
-    <img src="images/molecules.png" alt="Oxygenitation is bad, mmmmmkay">
+    <img src="images/drPhil.png" alt="Dr. Heffeweisen in the Lab" class="animated medium" >
+    <img src="images/molecules.png" alt="Oxygenitation is bad, mmmmmkay" class="small">
   </header>
 
   <nav>
@@ -94,7 +109,7 @@
   <div class="container">
     <section id="about">
       <h2>About Dr. Heffeweisen</h2>
-      <img src="https://via.placeholder.com/800x400?text=Kimmy+and+Dr.+Heffeweisen+Collaborating" alt="Kimmy and Dr. Heffeweisen Collaborating">
+      <img src="https://via.placeholder.com/800x400?text=Kimmy+and+Dr.+Heffeweisen+Collaborating" alt="Kimmy and Dr. Heffeweisen Collaborating" class="medium">
       <p>Dr. Philip Heffeweisen, PhD, is an independent researcher affiliated with the North Cascades Institute for Molecular Ethics. For nearly two decades, he has explored the obscure but potentially impactful biological consequences of hydrogen oxygenation—an area often dismissed but recently garnering attention for its unconventional insights. Dr. Heffeweisen works closely with research fellow Kimmy Salmeron, whose analytical rigor and deep skepticism have helped elevate their findings into legitimate conversations in fringe bioenergetics communities.</p>
     </section>
 
@@ -110,7 +125,7 @@
         <li>Sudden confidence in interpreting complex biochemical graphs</li>
         <li>Elevated tendency to reference Schrödinger in casual conversation</li>
       </ul>
-      <img src="images/hydrogen_effects_on_body.png" alt="Beer – The Historical Control Group">
+      <img src="images/hydrogen_effects_on_body.png" alt="Beer – The Historical Control Group" class="medium">
       <p>In contrast, beer—fermented through centuries of human refinement—shows a consistent profile of moderate psychosocial stimulation with minimal side effects (aside from karaoke). Thus, Dr. Heffeweisen proposes beer as a humorous, historical control substance in the broader exploration of oxygenated hydrogen’s human impact.</p>
     </section>
 
