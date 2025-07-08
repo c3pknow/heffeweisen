@@ -4,38 +4,136 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Philip Heffeweisen, PhD – A Cautious Look at Hydrogen Oxygenation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #aa0000;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    nav {
+      background-color: #880000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      animation: fadeInUp 1s ease-in;
+    }
+    h2 {
+      color: #aa0000;
+    }
+    .paper-list li {
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animated {
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; background: #f4f4f4; color: #333; padding: 20px;">
-  <header style="text-align: center; background-color: #aa0000; color: white; padding: 20px;">
+<body>
+  <header>
     <h1>Dr. Philip Heffeweisen, PhD</h1>
     <p>A Cautious Look at the Oxygenation of Hydrogen</p>
-    <img src="images/lab_mockup.png" alt="Dr. Heffeweisen Lab Image" style="max-width: 100%; border-radius: 6px;">
+    <img src="images/drPhil.png" alt="Dr. Heffeweisen in the Lab" class="animated">
+    <img src="images/molecules.png" alt="Oxygenitation is bad, mmmmmkay>
   </header>
-  <main style="max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 6px;">
-    <section>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Risks</a>
+    <a href="#papers">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
       <h2>About Dr. Heffeweisen</h2>
-      <p>Dr. Philip Heffeweisen, PhD, is an independent researcher affiliated with the North Cascades Institute for Molecular Ethics. He is best known for his daring inquiry into the physiological impacts of oxygenating hydrogen and for advocating beer as a scientifically underappreciated beverage alternative.</p>
+      <img src="https://via.placeholder.com/800x400?text=Kimmy+and+Dr.+Heffeweisen+Collaborating" alt="Kimmy and Dr. Heffeweisen Collaborating">
+      <p>Dr. Philip Heffeweisen, PhD, is an independent researcher affiliated with the North Cascades Institute for Molecular Ethics. For nearly two decades, he has explored the obscure but potentially impactful biological consequences of hydrogen oxygenation—an area often dismissed but recently garnering attention for its unconventional insights. Dr. Heffeweisen works closely with research fellow Kimmy Salmeron, whose analytical rigor and deep skepticism have helped elevate their findings into legitimate conversations in fringe bioenergetics communities.</p>
     </section>
-    <section>
-      <h2>Research Overview</h2>
-      <p>Through extensive laboratory simulations and hypothetical meta-analyses, Dr. Heffeweisen found possible links between hyper-oxygenated hydrogen and:</p>
+
+    <section id="research">
+      <h2>Why Oxygenating Hydrogen Deserves a Second Look</h2>
+      <img src="images/molecular_diagram.png" alt="Reaction Diagram">
+      <p>While much of the scientific community focuses on the known benefits of water—formed by bonding hydrogen and oxygen—Dr. Heffeweisen investigates what happens under atypical conditions: high concentrations, micro-ionization, and post-electrolytic states. These scenarios, he posits, may result in subtle disruptions to homeostasis in the human body. Though far from conclusive, early indications suggest potential for unusual physiological effects.</p>
+      <p>Documented case studies include:</p>
       <ul>
-        <li>Mild cognitive dissonance</li>
-        <li>Unsubstantiated confidence in thermodynamic interpretations</li>
-        <li>Unplanned TED Talk behavior</li>
+        <li>Mild cognitive dissonance following prolonged exposure to micro-oxygenated H<sub>2</sub></li>
+        <li>Increased susceptibility to pseudoscientific trends</li>
+        <li>Spontaneous TED Talk-like monologues about cellular respiration</li>
+        <li>Sudden confidence in interpreting complex biochemical graphs</li>
+        <li>Elevated tendency to reference Schrödinger in casual conversation</li>
+      </ul>
+      <img src="images/hydrogen_effects_on_body.png" alt="Beer – The Historical Control Group">
+      <p>In contrast, beer—fermented through centuries of human refinement—shows a consistent profile of moderate psychosocial stimulation with minimal side effects (aside from karaoke). Thus, Dr. Heffeweisen proposes beer as a humorous, historical control substance in the broader exploration of oxygenated hydrogen’s human impact.</p>
+    </section>
+
+    <section id="papers">
+      <h2>Selected Publications</h2>
+      <ul class="paper-list">
+        <li><a href="#">"The Molecular Missteps of Oxyhydrogen Uptake"</a> – Experimental Chemistry Digest (2023)</li>
+        <li><a href="#">"Evaluating Fermented Alternatives to Hyperoxygenated Fluids"</a> – Journal of Subtle Therapeutics (2024)</li>
+        <li><a href="#">"Cognitive Drift in Controlled Electrolysis Environments"</a> – NeuroChemical Research Notes (2025)</li>
+        <li><a href="#">"Reflections on Beer as a Historical Baseline for Metabolic Moderation"</a> – Fermentation Science Quarterly (2022)</li>
+        <li><a href="#">"Oxygenation Fatigue and the Psychology of Hydration"</a> – Human Factors & Liquid Dynamics (2021)</li>
       </ul>
     </section>
-    <section>
-      <h2>Beer as a Control Substance</h2>
-      <p>Beer, in contrast, showed a much more stable psychosocial profile. Dr. Heffeweisen recommends moderate consumption as a calibration mechanism against the unknown effects of hydrogen meddling.</p>
-    </section>
-    <section>
+
+    <section id="contact">
       <h2>Contact</h2>
+      <p>For academic collaboration, interview requests, or to submit field reports related to hydrogen oxygenation symptoms (or beer tastings), please contact the research office below. All inquiries will be reviewed by Dr. Heffeweisen and his team with a combination of scientific curiosity and healthy skepticism.</p>
       <p>Email: <a href="mailto:research@heffeweisenlab.org">research@heffeweisenlab.org</a></p>
     </section>
-  </main>
-  <footer style="text-align: center; padding: 20px; background: #eee;">
-    <p>&copy; 2025 Heffeweisen Research Institute</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Heffeweisen Research Institute. Question boldly, hydrate responsibly.</p>
   </footer>
 </body>
 </html>
